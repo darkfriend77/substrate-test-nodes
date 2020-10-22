@@ -1,8 +1,11 @@
 [workspace]
 members = [
-	"node-staking/node",
-	"node-staking/runtime",
-	"node-staking/pallets/template",
+	"node-dotmog/node",
+	"node-dotmog/runtime",
+	"node-dotmog/pallets/dotmog",
+#	"node-staking/node",
+#	"node-staking/runtime",
+#	"node-staking/pallets/template",
 #	"node-template/node",
 #	"node-template/runtime",
 #	"node-template/pallets/template",
