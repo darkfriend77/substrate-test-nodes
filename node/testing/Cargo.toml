@@ -35,7 +35,7 @@ pallet-staking = { version = "2.0.0" }
 sc-executor = { version = "0.8.0", features = ["wasmtime"] }
 sp-consensus = { version = "0.8.0" }
 frame-system = { version = "2.0.0" }
-#substrate-test-client = { version = "2.0.0" }
+substrate-test-client = { version = "2.0.0", path = "../../test-utils/client" }
 pallet-timestamp = { version = "2.0.0" }
 pallet-transaction-payment = { version = "2.0.0" }
 pallet-treasury = { version = "2.0.0" }

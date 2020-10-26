@@ -115,7 +115,7 @@ sc-keystore = { version = "2.0.0" }
 sc-consensus = { version = "0.8.0" }
 sc-consensus-babe = { version = "0.8.0", features = ["test-helpers"] }
 sc-consensus-epochs = { version = "0.8.0" }
-#sc-service-test = { version = "2.0.0", path = "../../client/service/test" }
+sc-service-test = { version = "2.0.0", path = "../../client/service/test" }
 futures = "0.3.4"
 tempfile = "3.1.0"
 assert_cmd = "1.0"
